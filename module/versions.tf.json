@@ -1,0 +1,28 @@
+{
+    "variable": {
+        "ansible_cfssl_version": {
+            "default": "v1.0.27"
+        },
+        "ansible_mongo_version": {
+            "default": "v1.0.3"
+        },
+        "ansible_docker_version": {
+            "default": "v1.0.12"
+        },
+        "ansible_route53_version": {
+            "default": "v1.0.10"
+        },
+        "ansible_td_agent_config_version": {
+            "default": "v1.0.8"
+        },
+        "ansible_users_version": {
+            "default": "v1.0.20"
+        },
+        "ansible_volumes_version": {
+            "default": "v1.0.4"
+        },
+        "terraform_bootstrap_version": {
+            "default": "v1.0.9"
+        }
+    }
+}

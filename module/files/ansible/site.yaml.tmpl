@@ -1,0 +1,12 @@
+- name: Install Roles
+  hosts: all
+  roles:
+    - role: 'ansible-td-agent-config/roles/td-agent-config'
+    - role: 'ansible-volumes/roles/volumes'
+    - role: 'ansible-docker/roles/docker'
+    - role: 'ansible-cfssl/roles/cfssl-common'
+    - role: 'ansible-cfssl/roles/cfssl-client'
+    - role: 'ansible-cfssl/roles/update-ca'
+    - role: 'ansible-users/roles/users'
+    - role: 'ansible-route53/roles/route53'
+    - role: 'ansible-mongo/roles/mongo'

@@ -1,0 +1,5 @@
+---
+
+# WARNING: This file is deployed from template. Raise a pull request against terraform-template to change.
+
+BUNDLE_PATH: ".vendor/bundle"

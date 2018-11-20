@@ -1,5 +1,0 @@
-# WARNING: This file is deployed from template. Raise a pull request against terraform-template to change.
-
-require 'rspec/core/rake_task'
-RSpec::Core::RakeTask.new('spec')
-task :default => :spec
